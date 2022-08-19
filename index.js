@@ -1,3 +1,4 @@
+// Code your solution here
 const batteryBatches = [4, 5, 3, 4, 4, 6, 5];
 
 const totalBatteries = batteryBatches.reduce((acc,item) => item + acc, 0);
@@ -6,24 +7,6 @@ console.log(totalBatteries)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Code your solution here
 // const products = [
 //   { name: 'Shampoo', price: 4.99 },
 //   { name: 'Donuts', price: 7.99 },
@@ -39,6 +22,6 @@ console.log(totalBatteries)
 // }
 // console.log(getTotalAmountForProducts(products));
 
-const numbers = [1,2,3,4,5]
-const addNumber = numbers.reduce((acc,item)=> item + acc, 0);
-console.log(addNumber);
+// const numbers = [1,2,3,4,5]
+// const addNumber = numbers.reduce((acc,item)=> item + acc, 0);
+// console.log(addNumber);
